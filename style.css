@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+#video-wrap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#myVideo {
+    position: absolute;
+    /* ******************************** IT'S OVER 9000!!!!!!!************************ */
+    top: -9999px; 
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    /* ******************************** IT'S OVER 9000!!!!!!!************************ */
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    filter: brightness(30%);   
+}
+
+/* input {
+  background: rgba(255,255,255,0.4);
+  border: none;
+  border-radius: 4px;
+  position: relative;
+  display: block;
+  outline: none;
+  width: 400px;
+  height: 100px;
+  top: 250px;
+  margin: 0 auto;
+  padding: 10px;
+  color: #333;
+  -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+} */
+.scrollingText{
+  background: rgba(255,255,255,0.4);
+  border: none;
+  border-radius: 4px;
+  position: relative;
+  display: block;
+  outline: none;
+  top: 250px;
+  margin: 0 auto;
+  /* padding: 10px; */
+  /* color: #333; */
+  color: black;
+  -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  float: left;
+  height: 200px;
+  width: 20%;
+  margin-top: 10%;
+  margin-left: 40%;
+  margin-right: 40%;
+  border:1px solid #ccc;
+  font:16px/26px Georgia, Garamond, Serif;
+  overflow:auto
+}
+
+p {
+  float: left;
+   width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  
+  
+}
+
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+border: 1px solid  #4f3cf3;
+border-radius: 10px;
+}
+
+/* this is the main color 
+#877bf6 */
+
+::-webkit-scrollbar-thumb {
+background: #7a6cfa;  
+border-radius: 10px;
+transition: background-color 1s linear;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background:  #5d4cf7; 
+
+}
+
+
+::-webkit-input-placeholder { color: #666;} 
+:-moz-placeholder { color: #666; }
+::-moz-placeholder { color: #666; }
+:-ms-input-placeholder { color: #666; }
